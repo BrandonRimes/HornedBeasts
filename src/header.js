@@ -1,7 +1,7 @@
 
 function Header(props) {
   return (
-    <h1 title="header">Horned Beasts</h1>
+    <h1 id="header" title="header">Horned Beasts</h1>
   )
 }
 

@@ -7,7 +7,7 @@ function Main(props) {
     beastArray.push(<HornedBeast title={beast.title} image_url={beast.image_url} keyword={beast.keyword} description={beast.description}/>);
   });
   return (
-    beastArray
+    <main>{beastArray}</main>
   )
 }
 
