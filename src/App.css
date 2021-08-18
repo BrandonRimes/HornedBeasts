@@ -151,9 +151,9 @@ main {
   top: 0;
   background: linear-gradient(to right,
     transparent,
-    rgba(0, 191, 255, 0.25) 10%,
-    rgba(255, 255, 255, 0.5) 50%,
-    rgba(255, 20, 145, 0.25) 90%,
+    rgba(0, 191, 255, 0.1) 10%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 20, 145, 0.1) 90%,
     transparent
     );
   transform: translateX(-4vw);

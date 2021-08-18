@@ -6,7 +6,7 @@ function HornedBeast(props) {
 
   const handleClick = () => {
     setCount(count + 1);
-  }
+  };
   return (
     <div className="beast" onClick={handleClick}>
       <h2>{props.title}</h2>
@@ -14,7 +14,7 @@ function HornedBeast(props) {
       <p>{props.description}</p>
       <div className="heart"><div className="count">{count}</div></div>
     </div>
-  )
+  );
 }
 
 export default HornedBeast;

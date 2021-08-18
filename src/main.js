@@ -9,7 +9,7 @@ function Main(props) {
   });
   return (
     <main>{beastArray}</main>
-  )
+  );
 }
 
 export default Main;
