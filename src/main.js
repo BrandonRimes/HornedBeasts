@@ -1,5 +1,5 @@
 import HornedBeast from './hornedbeast';
-import beasts from './beasts';
+import beasts from './data/beasts.json';
 
 
 function Main(props) {
