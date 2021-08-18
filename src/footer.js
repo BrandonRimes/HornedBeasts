@@ -1,6 +1,6 @@
 function Footer(props) {
   return (
-    <p>Author: Brandon Rimes</p>
+    <p id="footer">Author: Brandon Rimes</p>
   )
 }
 

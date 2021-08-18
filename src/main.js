@@ -1,6 +1,7 @@
 import HornedBeast from './hornedbeast';
 import beasts from './beasts';
 
+
 function Main(props) {
   let beastArray = [];
   beasts.forEach(beast => {
