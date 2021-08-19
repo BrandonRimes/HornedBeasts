@@ -3,13 +3,7 @@ import beasts from './data/beasts.json';
 
 
 function Main(props) {
-  let beastArray = [];
-  beasts.forEach(beast => {
-    beastArray.push(<HornedBeast title={beast.title} image_url={beast.image_url} keyword={beast.keyword} description={beast.description}/>);
-  });
-  return (
-    <main>{beastArray}</main>
-  );
+  return beasts.map(beast => <HornedBeast title={beast.title} image_url={beast.image_url} keyword={beast.keyword} description={beast.description}/>);
 }
 
 export default Main;
