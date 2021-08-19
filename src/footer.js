@@ -1,6 +1,6 @@
 function Footer(props) {
   return (
-    <p id="footer">Author: Brandon Rimes</p>
+    <p id="footer">Author: <a href="https://brandonrimes.net/" target="_blank">Brandon Rimes</a></p>
   );
 }
 
