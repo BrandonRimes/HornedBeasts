@@ -201,6 +201,7 @@ html {
   text-align: center;
   padding-top: 5%;
   z-index: 3;
+  outline: none;
 }
 
 .modal img {
@@ -226,7 +227,7 @@ select {
   border-radius: 20px;
   border: none;
   box-shadow: 2px 2px 3px black, inset 0 0 2px black;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;
 }
 
 select:focus {
@@ -235,5 +236,5 @@ select:focus {
 
 select:hover {
   box-shadow: 3px 3px 0px deeppink, -3px -3px 0px deepskyblue;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in-out;
 }

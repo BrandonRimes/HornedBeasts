@@ -18,7 +18,7 @@ function Filter(props) {
         horns.push(beast.horns);
       }
     });
-    return horns.sort();
+    return horns.sort((a,b) => a > b);
   };
 
   const options = (props) => {
