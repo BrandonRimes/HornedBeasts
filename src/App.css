@@ -212,3 +212,28 @@ html {
   max-height: 70vh;
   z-index: -1;
 }
+
+#filter {
+  position: absolute;
+  top: 12%;
+  right: 45%;
+  height: 20px;
+  width: 10%;
+}
+
+select {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 2px 3px black, inset 0 0 2px black;
+  transition: all 0.2s ease;
+}
+
+select:focus {
+  outline: none;
+}
+
+select:hover {
+  box-shadow: 3px 3px 0px deeppink, -3px -3px 0px deepskyblue;
+  transition: all 0.2s ease;
+}
